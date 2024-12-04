@@ -125,5 +125,5 @@ app.get("/about", function (req, res) {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, function () {
-  console.log("Server started on port", PORT);
+  console.log("El servidor ya está corriendo en el puerto: ", PORT);
 });
