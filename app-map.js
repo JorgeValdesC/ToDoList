@@ -93,7 +93,7 @@ app.post("/", function (req, res) {
 // Work list route handler works imilar to the home route but specifically for the work-related list.
 app.get("/work", function (req, res) {
   // Render the 'list' template with 'Work' as the title and the workItems array for the list items.
-  console.log("I am in get work")
+  console.log("Estoy en la lista del trabajo")
   // Convert the Map to an Array of objects for EJS to iterate over
   const itemList = Array.from(workItems, ([uid, text]) => ({ uid, text }));
 
